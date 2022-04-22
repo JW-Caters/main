@@ -1,13 +1,13 @@
 .container {
-  height: 10rem;
-  padding: 0 5rem;
-  background-color: var(--baseColor);
+  padding: 1rem 5rem;
+  background-color: var(--grannySmithApple);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1;
+  box-shadow: 0px 15px 10px -15px var(--onyx);
 }
 
 .item {
@@ -17,7 +17,7 @@
 }
 
 .item:nth-child(2) {
-  flex: 3;
+  flex: 2;
 }
 
 .item:nth-child(3) {
@@ -25,11 +25,11 @@
 }
 
 .callButton {
-  background-color: var(--baseWhite);
+  background-color: var(--mintCream);
   border-radius: 10rem;
-  padding: 1rem;
-  width: 5rem;
-  height: 5rem;
+  padding: 0.75rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .callButton svg {
@@ -38,17 +38,17 @@
 }
 
 .texts {
-  margin-left: 2rem;
-  color: var(--baseWhite);
+  margin-left: 1rem;
+  color: var(--mintCream);
 }
 
 .text:first-child {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .text:last-child {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -58,13 +58,13 @@
   display: flex;
   align-items: center;
   list-style: none;
-  color: var(--baseWhite);
+  color: var(--mintCream);
   justify-content: space-between;
 }
 
 .listItem {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .cart {
@@ -72,7 +72,7 @@
 }
 
 .cart svg {
-  height: 3rem;
+  height: 2rem;
   width: 3rem;
 }
 
@@ -83,11 +83,11 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background-color: var(--baseWhite);
+  background-color: var(--mintCream);
   padding: 0.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--baseColor);
+  color: var(--grannySmithApple);
 }

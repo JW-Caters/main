@@ -1,6 +1,9 @@
 :root {
-  --baseColor: orange;
-  --baseWhite: #fff;
+  --onyx: #3f4045;
+  --mintCream: #f7fff6;
+  --magicMint: #bcebcb;
+  --grannySmithApple: #87d68d;
+  --richBlack: #02111b;
 }
 
 .icon-base-color {
@@ -11,9 +14,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
