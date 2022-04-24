@@ -1,20 +1,33 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
+import {
+  BsInstagram,
+  BsTwitter,
+  BsTelephoneFill,
+  BsMailbox2,
+} from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper}>
-        <div className={styles.section}>
-          <h3>Joseph Walker Catering</h3>
-        </div>
-        <div className={styles.section}>
-          <h3>Get In Touch</h3>
-        </div>
-        <div className={styles.section}>
-          <h3>Follow Our Journey</h3>
-        </div>
-      </div>
+      <ul className={styles.socials}>
+        <li className={styles.item}>
+          <BsInstagram size={30} />
+          jwcaters
+        </li>
+        <li className={styles.item}>
+          <BsTwitter size={30} />
+          jwcaters
+        </li>
+        <li className={styles.item}>
+          <BsTelephoneFill size={30} />
+          (415) 123 - 4567
+        </li>
+        <li className={styles.item}>
+          <BsMailbox2 size={30} />
+          jwcaters@gmail.com
+        </li>
+      </ul>
     </div>
   );
 };

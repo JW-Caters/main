@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40rem;
+  background-color: var(--richBlack);
+  color: var(--mintCream);
+}
+
+.container .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+  background-image: url(../public/images/joseph.jpeg);
+  background-position: left;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container .left img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.container .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 3rem;
+}
+
+.container .right .title {
+  font-size: 3rem;
+}
+
+.container .right .desc {
+  font-size: 1.5rem;
+  text-align: center;
+}

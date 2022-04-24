@@ -1,24 +1,26 @@
 .container {
   display: flex;
   align-items: center;
-  background-color: var(--onyx);
+  background-color: var(--richBlack);
   color: var(--mintCream);
-}
-
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 2rem 1rem 2rem;
+  justify-content: center;
+  padding: 4rem;
   width: 100%;
 }
 
-.section {
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.socials .item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section h3 {
-  text-transform: uppercase;
+.socials .item svg {
+  margin-right: 0.5rem;
 }

@@ -2,7 +2,6 @@ import React, { useCallback, useRef, useState, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import styles from "../styles/Featured.module.css";
-import { NextButton, PrevButton } from "./EmblaCarouselButtons";
 import Image from "next/image";
 
 const Featured = () => {
@@ -34,7 +33,10 @@ const Featured = () => {
                 <Image
                   className={styles.embla__slide__img}
                   src={src}
-                  layout="fill"
+                  layout="responsive"
+                  width="100%"
+                  height="100%"
+                  objectFit="contain"
                 />
               </div>
             </div>

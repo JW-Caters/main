@@ -1,6 +1,6 @@
 .container {
   padding: 1rem 5rem;
-  background-color: var(--grannySmithApple);
+  background-color: var(--richBlack);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,38 +8,17 @@
   top: 0;
   z-index: 1;
   box-shadow: 0px 15px 10px -15px var(--onyx);
+  color: var(--mintCream);
+  z-index: 999;
 }
 
 .item {
-  flex: 1;
   display: flex;
   align-items: center;
 }
 
-.item:nth-child(2) {
-  flex: 2;
-}
-
-.item:nth-child(3) {
-  justify-content: flex-end;
-}
-
-.callButton {
-  background-color: var(--mintCream);
-  border-radius: 10rem;
-  padding: 0.75rem;
-  width: 3rem;
-  height: 3rem;
-}
-
-.callButton svg {
-  height: 100%;
-  width: 100%;
-}
-
 .texts {
   margin-left: 1rem;
-  color: var(--mintCream);
 }
 
 .text:first-child {
@@ -53,41 +32,15 @@
 }
 
 .list {
-  width: 100%;
   padding: 0;
   display: flex;
   align-items: center;
   list-style: none;
-  color: var(--mintCream);
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .listItem {
   font-weight: 500;
   font-size: 1.25rem;
-}
-
-.cart {
-  position: relative;
-}
-
-.cart svg {
-  height: 2rem;
-  width: 3rem;
-}
-
-.counter {
-  position: absolute;
-  top: -1rem;
-  right: -1rem;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: var(--mintCream);
-  padding: 0.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: var(--grannySmithApple);
+  margin-left: 1rem;
 }

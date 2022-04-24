@@ -3,18 +3,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 5rem;
-  background-color: var(--mintCream);
+  padding: 6rem;
   width: 100%;
+  background-image: url(../public/images/vegetables.jpg);
+  position: relative;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--mintCream);
+}
+
+.container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .title {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
-  color: var(--onyx);
   width: 70%;
-  margin: 2rem 0;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  z-index: 2;
 }
 
 .description {
@@ -22,5 +38,5 @@
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
-  color: var(--onyx);
+  z-index: 2;
 }

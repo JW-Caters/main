@@ -1,0 +1,39 @@
+.container {
+  overflow: hidden;
+}
+
+.container .wrapper {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content .wrapper {
+  color: var(--mintCream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.content .wrapper svg {
+  margin-top: 25%;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.subTitle {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
