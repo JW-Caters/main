@@ -12,8 +12,11 @@ const Hero = () => {
           <video
             autoPlay
             muted
+            defaultMuted
             loop
             playsInline
+            preload="auto"
+            onContextMenu="return false;"
             style={{ width: "100vw", height: "100%", objectFit: "cover" }}
           >
             <source src="../videos/roastPork.mp4" type="video/mp4" />
