@@ -8,9 +8,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <meta name="viewport" content="initial-scale=1, width=device-width " />
         <title>Joseph Walker Catering</title>
-        <meta name="description" content="Treat yourself!" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
       <MeetTheChef />
