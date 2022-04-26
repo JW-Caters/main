@@ -24,3 +24,27 @@
 .socials .item svg {
   margin-right: 0.5rem;
 }
+
+/* Tablet */
+@media (min-width: 425px) {
+  .container {
+  }
+}
+
+/* Laptop */
+@media (min-width: 769px) {
+  .container {
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .container {
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1201px) {
+  .container {
+  }
+}
