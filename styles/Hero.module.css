@@ -30,12 +30,13 @@
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 1.75rem;
 }
 
 .subTitle {
-  font-size: 2rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* Tablet */
@@ -47,6 +48,15 @@
 /* Laptop */
 @media (min-width: 769px) {
   .container {
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .subTitle {
+    font-size: 2rem;
+    text-transform: uppercase;
   }
 }
 

@@ -4,7 +4,7 @@
   background-color: var(--richBlack);
   color: var(--mintCream);
   justify-content: center;
-  padding: 4rem;
+  padding: 2rem;
   width: 100%;
 }
 
@@ -12,7 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  flex-direction: column;
+  padding: 0;
 }
 
 .socials .item {
@@ -34,6 +35,12 @@
 /* Laptop */
 @media (min-width: 769px) {
   .container {
+    padding: 4rem;
+  }
+
+  .socials {
+    width: 50%;
+    flex-direction: row;
   }
 }
 

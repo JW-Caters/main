@@ -19,7 +19,9 @@ const MeetTheChef = () => {
           anywhere you like on your page. Im a great place for you to tell a
           story and let your users know a little more about you.
         </p>
-        <p>Phone: (415) 123 - 4567 | Email: jwcaters@gmail.com</p>
+        <p className={styles.contact}>
+          Phone: (415) 123 - 4567 | Email: jwcaters@gmail.com
+        </p>
       </div>
     </div>
   );
