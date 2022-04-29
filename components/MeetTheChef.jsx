@@ -13,11 +13,18 @@ const MeetTheChef = () => {
       <div className={styles.right}>
         <h1 className={styles.title}>Meet The Chef</h1>
         <p className={styles.desc}>
-          I'm a paragraph. Click here to add your own text and edit me. Its
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. Feel free to drag and drop me
-          anywhere you like on your page. Im a great place for you to tell a
-          story and let your users know a little more about you.
+          Joseph started his culinary adventure in Flagstaff Arizona at a place
+          called 1899 Bar & Grill while attending Northern Arizona University.
+          He worked his way up from line cook to junior sous chef while casually
+          adopting the best aspects of styles and techniques he resonated with.
+          Through experimentation and iteration he developed his own unique
+          style with inspiration mainly drawn from Southern and cajun cuisines.
+          However, like many great artists he became was dissatisfied and felt
+          stagnant after years of experience. This desire for something new
+          drove him to San Francisco - one of the top food city's in the country
+          - where he sought to elevate his skills by gaining a deeper,
+          traditional understanding of haute cuisine. That's where he attended
+          Le Cordon Bleu Culinary School.
         </p>
         <p className={styles.contact}>
           Phone: (415) 123 - 4567 | Email: jwcaters@gmail.com

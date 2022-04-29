@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.container .wrapper:first-child {
+  transform: none;
+}
+
 .content {
   position: absolute;
   top: 0;

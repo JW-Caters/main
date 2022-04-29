@@ -2,13 +2,13 @@ import React from "react";
 import styles from "../styles/Hero.module.css";
 import { GrDown } from "react-icons/gr";
 import { IconContext } from "react-icons/lib";
-import { Parallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 const Hero = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <Parallax speed={-100}>
+        <ParallaxBanner speed={-100}>
           <video
             autoPlay
             muted
@@ -17,11 +17,12 @@ const Hero = () => {
             playsInline
             preload="auto"
             onContextMenu="return false;"
+            className={styles.video}
             style={{ width: "100vw", height: "100%", objectFit: "cover" }}
           >
             <source src="../videos/roastPork.mp4" type="video/mp4" />
           </video>
-        </Parallax>
+        </ParallaxBanner>
 
         <div className={styles.content}>
           <div className={styles.wrapper}>
