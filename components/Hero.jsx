@@ -12,7 +12,7 @@ const Hero = () => {
           <video
             autoPlay
             muted
-            defaultMuted
+            defaultmuted="true"
             loop
             playsInline
             preload="auto"

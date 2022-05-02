@@ -1,91 +1,81 @@
-.container {
+.overlayOpen {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0);
+  overflow-x: hidden;
+  transition: 1s;
+  color: var(--mintCream);
   display: flex;
-  background-color: var(--richBlack);
+  flex-direction: column;
+}
+
+.overlayClosed {
+  display: none;
+}
+
+.overlayContent {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.menuWrapper {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  box-shadow: 0px 15px 10px -15px var(--onyx);
   color: var(--mintCream);
-  z-index: 999;
-  width: 100%;
-  padding: 1rem 0.75rem;
+  padding: 1rem 2rem;
 }
 
-.item {
+.closeBtnWrapper {
   display: flex;
-  align-items: center;
-}
-
-.list {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  list-style: none;
   justify-content: flex-end;
+  padding: 1rem 2rem;
 }
 
-.listItem {
-  font-weight: 500;
-  font-size: 1.25rem;
-  margin-left: 0.5rem;
+.menuContent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.menuItem {
+  font-size: 4rem;
+}
+
+.btn {
+  border: none;
+  color: var(--mintCream);
+  background: none;
 }
 
 /* Tablet */
 @media (min-width: 425px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .item {
-    display: flex;
-    align-items: center;
-  }
-
-  .list {
-    padding: 0;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .listItem {
-    font-weight: 500;
-    font-size: 1.25rem;
-    margin-left: 1rem;
-  }
+  /*  */
 }
 
 /* Laptop */
 @media (min-width: 769px) {
-  .container {
-    padding: 1rem 3rem;
-  }
-
-  .listItem {
-    margin-left: 1.25rem;
-  }
+  /*  */
 }
 
 /* Desktop */
 @media (min-width: 1025px) {
-  .container {
-    padding: 1rem 2rem;
-  }
-
-  .listItem {
-    margin-left: 4.5rem;
-    font-size: 1.45rem;
-  }
+  /*  */
 }
 
 /* Large desktop */
 @media (min-width: 1201px) {
-  .container {
-  }
-
-  .listItem {
-    margin-left: 8rem;
-    font-size: 1.75rem;
-  }
+  /*  */
 }

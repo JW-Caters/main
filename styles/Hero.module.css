@@ -6,10 +6,6 @@
   position: relative;
 }
 
-.container .wrapper:first-child {
-  transform: none;
-}
-
 .content {
   position: absolute;
   top: 0;
@@ -44,16 +40,13 @@
 }
 
 /* Tablet */
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
   .container {
   }
-}
+} */
 
 /* Laptop */
 @media (min-width: 769px) {
-  .container {
-  }
-
   .title {
     font-size: 4rem;
   }
@@ -65,13 +58,13 @@
 }
 
 /* Desktop */
-@media (min-width: 1025px) {
+/* @media (min-width: 1025px) {
   .container {
   }
-}
+} */
 
 /* Large desktop */
-@media (min-width: 1201px) {
+/* @media (min-width: 1201px) {
   .container {
   }
-}
+} */
