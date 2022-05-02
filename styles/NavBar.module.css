@@ -35,6 +35,11 @@
   padding: 1rem 2rem;
 }
 
+.menuWrapper .logoWrapper .logoImage {
+  width: 50%;
+  height: 50%;
+}
+
 .closeBtnWrapper {
   display: flex;
   justify-content: flex-end;
@@ -58,6 +63,7 @@
   border: none;
   color: var(--mintCream);
   background: none;
+  cursor: pointer;
 }
 
 /* Tablet */
@@ -66,8 +72,10 @@
 }
 
 /* Laptop */
-@media (min-width: 769px) {
-  /*  */
+@media (min-width: 765px) {
+  .menuWrapper {
+    padding: 2rem 4rem;
+  }
 }
 
 /* Desktop */

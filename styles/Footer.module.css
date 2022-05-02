@@ -3,15 +3,25 @@
   align-items: center;
   background-color: var(--richBlack);
   color: var(--mintCream);
-  justify-content: center;
-  padding: 2rem;
+  justify-content: space-between;
+  padding: 4rem;
   width: 100%;
+}
+
+.container .logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container .logo .logoImage {
+  width: 50%;
+  height: 50%;
 }
 
 .socials {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   padding: 0;
 }
@@ -33,14 +43,13 @@
 }
 
 /* Laptop */
-@media (min-width: 769px) {
+@media (min-width: 765px) {
   .container {
     padding: 4rem;
   }
 
   .socials {
     width: 50%;
-    flex-direction: row;
   }
 }
 

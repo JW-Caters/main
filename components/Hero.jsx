@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Hero.module.css";
-import { GrDown } from "react-icons/gr";
+import { FaChevronDown } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { ParallaxBanner } from "react-scroll-parallax";
 
@@ -26,15 +26,12 @@ const Hero = () => {
 
         <div className={styles.content}>
           <div className={styles.wrapper}>
-            <h1 className={styles.title}>Joseph Walker Catering</h1>
             <h2 className={styles.subTitle}>
               The ultimate in-home fine dining experience
             </h2>
-            <IconContext.Provider
-              value={{ className: "icon-base-color", id: "downIcon" }}
-            >
-              <GrDown />
-            </IconContext.Provider>
+            <div className={styles.iconWrapper}>
+              <FaChevronDown />
+            </div>
           </div>
         </div>
       </div>

@@ -6,10 +6,6 @@
   --richBlack: #02111b;
 }
 
-.icon-base-color {
-  color: var(--baseColor);
-}
-
 html,
 body {
   padding: 0;

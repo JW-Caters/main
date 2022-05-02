@@ -10,8 +10,11 @@ const NavBar = () => {
   return (
     <>
       <div className={styles.menuWrapper}>
-        <div>
-          <span>logo</span>
+        <div className={styles.logoWrapper}>
+          <img
+            src="/images/whiteLogoCropped.png"
+            className={styles.logoImage}
+          />
         </div>
         <div>
           <button onClick={handleMenu} className={styles.btn}>
